@@ -13,15 +13,18 @@ In large companies, employee turnover can pose significant challenges and come w
 
 ## Data understanding
 The data to be analyzed will be gathered from the employee survey conducted by the HR department. The survey will likely contain a wealth of information that can be utilized to address the problem, including job title, department, number of projects, average monthly hours, and other relevant data points. This information is integral to understanding the patterns and trends related to employee turnover.
+
 ![Image de High Employee Turnover](Docs/output2.png)
+
 The fisrt analysis possible to see is that people who work on more projects would also work longer hours. 
 This appears to be the case here, with the mean hours of each group (<span style="color: #3274a1;">stayed</span> and <span style="color: #e1812c;">left</span>) increasing with number of projects worked. 
 
 ![Image de High Employee Turnover](Docs/output.png)
+
 The graph reveals two distinct groups of departing employees: high-performers who worked extensively, and lower performers who worked less than 166.67 hours. It suggests a correlation between hours worked and evaluation scores, yet it also shows that longer hours don't necessarily lead to higher scores. Notably, the majority of employees work more than 166.67 hours per month.
 
 ## Modeling and evaluation
-![Alt text](image.png)
+![Alt text](Docs/image.png)
 
 **Logistic Regression**
 
