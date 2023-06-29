@@ -4,7 +4,7 @@
   <p align="center">
     <a href="https://www.datascienceportfol.io/alexandreroger"><strong>Website</strong></a>
     ·
-    <a <strong>pro.alexandreroger@gmail.com</strong></a>
+    <a href="mailto:pro.alexandreroger@gmail.com"><strong>Email</strong></a>
     ·
     <a href="https://www.linkedin.com/in/alexandre-roger/"><strong>Likedin</strong></a>
   </p>
