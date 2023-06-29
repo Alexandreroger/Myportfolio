@@ -5,18 +5,32 @@
 
 **Python - Data cleaning - Data visualization - Logistic Model Regression - Random Forest Classification**
 
-## Fictional scenario
+## Overview
+In this fictional scenario, Salifort Motors is grappling with a significant challenge: a high rate of employee turnover. This includes both employees opting to leave and those being let go. The company is committed to fostering a corporate culture that bolsters employee success and professional growth, making this issue particularly troubling. Beyond the impact on company culture, the financial implications are substantial. Salifort invests heavily in the recruitment, training, and upskilling of its employees, meaning each departure represents a significant cost.
 
-Currently, there is a high rate of turnover among Salifort employees. (Note: In this context, turnover data includes both employees who choose to quit their job and employees who are let go). Salifort’s senior leadership team is concerned about how many employees are leaving the company. Salifort strives to create a corporate culture that supports employee success and professional development. Further, the high turnover rate is costly in the financial sense. Salifort makes a big investment in recruiting, training, and upskilling its employees. 
+## Business Understanding
+In large companies, employee turnover can pose significant challenges and come with substantial costs. Such organizations often invest heavily in their workforce through training and development programs, making the loss of employees, especially skilled ones, a considerable setback. High turnover rates can also disrupt workflow, decrease productivity, and negatively impact employee morale, as consistent changes in personnel can create an unstable work environment. Additionally, the costs associated with hiring replacements - from advertising vacancies, conducting interviews, to onboarding and training new hires - are significant. Large companies also have to grapple with the loss of institutional knowledge that departing employees take with them. Therefore, understanding and reducing turnover is a critical focus for many large organizations
 
-If Salifort could predict whether an employee will leave the company, and discover the reasons behind their departure, they could better understand the problem and develop a solution. 
+## Data understanding
+The data to be analyzed will be gathered from the employee survey conducted by the HR department. The survey will likely contain a wealth of information that can be utilized to address the problem, including job title, department, number of projects, average monthly hours, and other relevant data points. This information is integral to understanding the patterns and trends related to employee turnover.
+![Image de High Employee Turnover](Docs/output2.png)
+The fisrt analysis possible to see is that people who work on more projects would also work longer hours. 
+This appears to be the case here, with the mean hours of each group (<span style="color: #3274a1;">stayed</span> and <span style="color: #e1812c;">left</span>) increasing with number of projects worked. 
 
-As a first step, the leadership team asks Human Resources to survey a sample of employees to learn more about what might be driving turnover.  
+![Image de High Employee Turnover](Docs/output.png)
+The graph reveals two distinct groups of departing employees: high-performers who worked extensively, and lower performers who worked less than 166.67 hours. It suggests a correlation between hours worked and evaluation scores, yet it also shows that longer hours don't necessarily lead to higher scores. Notably, the majority of employees work more than 166.67 hours per month.
 
-Next, the leadership team asks you to analyze the survey data and come up with ideas for how to increase employee retention. To help with this, they suggest you design a model that predicts whether an employee will leave the company based on their job title, department, number of projects, average monthly hours, and any other relevant data points. A good model will help the company increase retention and job satisfaction for current employees, and save money and time training new employees. 
+## Modeling and evaluation
+![Alt text](image.png)
+**Logistic Regression**
 
-As a specialist in data analysis, the leadership team leaves it up to you to choose an approach for building the most effective model to predict employee departure. For example, you could build and evaluate a statistical model such as logistic regression. Or, you could build and evaluate machine learning models such as decision tree, random forest, and XGBoost. Or, you could choose to deploy both statistical and machine learning models. 
+The logistic regression model achieved precision of 80%, recall of 83%, f1-score of 80% (all weighted averages), and accuracy of 83%, on the test set.
 
-For any approach, you’ll need to analyze the key factors driving employee turnover, build an effective model, and share recommendations for next steps with the leadership team. 
+**Tree-based Machine Learning**
+
+After conducting feature engineering, the decision tree model achieved AUC of 94.3%, precision of 86.5%, recall of 91.5%, f1-score of 88.9%, and accuracy of 96.2%, on the test set. The random forest modelslightly outperformed the decision tree model.
+
+## Conclusion
+The analysis indicates that overwork is a key issue at the company. To improve employee retention, recommendations include: limiting the number of projects per employee, considering promotions for employees with four or more years of tenure, adjusting compensation or expectations for long work hours, clarifying overtime policies and expectations, facilitating discussions about work culture, and revising evaluation score guidelines to ensure fairness for those working fewer hours.
 
 ⚠️ This project comes from the Google certificat: Advanced Data Analyst ⚠️
