@@ -1,7 +1,11 @@
 ![Image de High Employee Turnover](Docs/High_employee_turnover.jpg)
 # Employee Turnover Prediction and Retention Strategy Development
 
-#### Fictional scenario
+## Skills
+
+**Python - Data cleaning - Data visualization - Logistic Model Regression - Random Forest Classification**
+
+## Fictional scenario
 
 Currently, there is a high rate of turnover among Salifort employees. (Note: In this context, turnover data includes both employees who choose to quit their job and employees who are let go). Salifort’s senior leadership team is concerned about how many employees are leaving the company. Salifort strives to create a corporate culture that supports employee success and professional development. Further, the high turnover rate is costly in the financial sense. Salifort makes a big investment in recruiting, training, and upskilling its employees. 
 
