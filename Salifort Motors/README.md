@@ -22,6 +22,7 @@ The graph reveals two distinct groups of departing employees: high-performers wh
 
 ## Modeling and evaluation
 ![Alt text](image.png)
+
 **Logistic Regression**
 
 The logistic regression model achieved precision of 80%, recall of 83%, f1-score of 80% (all weighted averages), and accuracy of 83%, on the test set.
@@ -33,4 +34,4 @@ After conducting feature engineering, the decision tree model achieved AUC of 94
 ## Conclusion
 The analysis indicates that overwork is a key issue at the company. To improve employee retention, recommendations include: limiting the number of projects per employee, considering promotions for employees with four or more years of tenure, adjusting compensation or expectations for long work hours, clarifying overtime policies and expectations, facilitating discussions about work culture, and revising evaluation score guidelines to ensure fairness for those working fewer hours.
 
-⚠️ This project comes from the Google certificat: Advanced Data Analyst ⚠️
+⚠️ **This project comes from the Google certificat: Advanced Data Analyst** ⚠️
