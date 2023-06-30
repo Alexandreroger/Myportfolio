@@ -15,4 +15,5 @@ My aim is to combine my passion for numbers with my technological curiosity, so 
 
 Project completed:
 
+- Automatidata
 - Salifort Motors
