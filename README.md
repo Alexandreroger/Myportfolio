@@ -6,7 +6,7 @@
     ·
     <a href="mailto:pro.alexandreroger@gmail.com"><strong>Email</strong></a>
     ·
-    <a href="https://www.linkedin.com/in/alexandre-roger/"><strong>Likedin</strong></a>
+    <a href="https://www.linkedin.com/in/alexandre-roger/"><strong>Linkedin</strong></a>
   </p>
 
 
